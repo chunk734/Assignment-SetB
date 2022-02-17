@@ -85,8 +85,8 @@ networkTrafficHardening() {
 	apt-get install iptables-persistent -y >/dev/null 2>&1
 
 	#Allow all traffic for localhost
-	checkAndAddIPtables "INPUT -s localhost -j ACCEPT"
-	checkAndAddIPtables "OUTPUT -d localhost -j ACCEPT"
+	checkAndAddIPtables "INPUT -i lo -j ACCEPT"
+	checkAndAddIPtables "OUTPUT -o lo -j ACCEPT"
 
 	#Allow Inbound SSH, HTTP and DNS traffic (Ingress Hardening)
 	checkAndAddIPtables "INPUT -p tcp --dport 22 -m state --state NEW,ESTABLISHED -j ACCEPT"
