@@ -37,8 +37,9 @@ As per assignment, the single bash script has been segemnted into following majo
 **Note1** - The script could be executed in debug mode using "-d" flag. Use "-h" for help.<br /> 
 **Note2** - Default password for devops role : S@yurb0x@devops<br /> 
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Default password for dev role : S@yurb0x@dev<br />
-**Note3** - There are multiple features that could be improved like enforcing password characterstics using PAM, more linux configuration &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tunings for TCP connections, adding fail2ban, monitoring, etc. But keeping it simple for the sake of the assignment.<br />
-**Note4** - Please feel free to connect for any justifications.
+**Note3** - Assuming MongoDB will the run within the server and connect to web-appliaction via loopback address (Otherwise IPtable &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rules will have to be modified accordingly)           
+**Note4** - There are multiple features that could be improved like enforcing password characterstics using PAM, more linux configuration &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tunings for TCP connections, adding fail2ban, monitoring, etc. But keeping it simple for the sake of the assignment.<br />
+**Note5** - Please feel free to connect for any justifications.
 <br /><br />
 ### Script Output Screenshots
 
