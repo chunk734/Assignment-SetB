@@ -1,5 +1,7 @@
 # Assignment-SetB
 
+### Script Description
+
 As per assignment, the single bash script has been segemnted into following major functions:
 - **runAsRoot** : The function is responsible for making sure that script must be executed by a privileged user (root/in sudoers group), otherwise exit with message for the same.
 
@@ -30,10 +32,15 @@ As per assignment, the single bash script has been segemnted into following majo
    - check and increase the soft and hard limit for max number of open files, so as not to limit connections
    - check and increase server socket accept queue buffer size
    - check and increase server TCP receive queue buffer size
+<br />
 
 **Note1** - The script could be executed in debug mode using "-d" flag. Use "-h" for help.<br /> 
 **Note2** - Default password for devops role : S@yurb0x@devops<br /> 
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Default password for dev role : S@yurb0x@dev
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Default password for dev role : S@yurb0x@dev<br />
+**Note3** - There are multiple features that could be improved like enforcing password characterstics using PAM, more linux configuration &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tunings for TCP connections, adding fail2ban, monitoring, etc. But keeping it simple for the sake of the assignment.<br />
+**Note4** - Please feel free to connect for any justifications.
+<br /><br />
+### Script Output Screenshots
 
 Operations Menu<br />
 <img width="387" alt="Screenshot 2022-02-17 at 4 36 46 PM" src="https://user-images.githubusercontent.com/17096303/154475623-cd17452d-7320-4046-8939-6cac8186df81.png"><br />
